@@ -1,117 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio Kouakou Martin</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portefolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./IMAGES/portefolio.png">
+  </head>
+  <body>
     <header>
-            <div class="navbar">
-                <div class="logo">
-                    <a href="#">KymSoft</a>
-                </div>
-
-                <ul class="links">
-                    <li><a href="#page1">accueil</a></li>
-                    <li><a href="#page2">Travail</a></li>
-                    <li><a href="#page3">CV</a></li>
-                    <li><a href="#page4">Contact</a></li>
-                    <li><a href="#page5">A Propos</a></li>
-                </ul>
-
-                <div class="buttons">
-                    <a href="#" class="action-button pro">Connecter</a>
-                    <a href="#" class="action-button">Déconnecter</a>
-                </div>
-
-                <div class="burgermenu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
+      <nav>
+        <ul class="links">
+          <li><a href="#accueil">accueil</a></li>
+          <li><a href="#travail">Travail</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#apropos">A Propos</a></li>
+        </ul>
+      </nav>
     </header>
-
+    <main>
     <section class="acceuil">
-        <div class="texteacceuil">
-            
-            <a name="#page1"> </a>
-    
-            <h1>Je suis <br>KOUAKOU Martin</h1>
-            <h3>Développeur d'applications</h3>
-            <p>
-                Avec plusieurs années d'expérience, Contactez pour plus d'informations.
-            </p>
+      <div class="texteacceuil">
+        <a name="#page1"> </a>
 
-            <div class="boutons">
-                <a href="#" class="btn1">Contactez-moi</a>
-                <a href="#" class="btn2">Voir Prospectus</a>
-            </div>
+        <h1>Je suis <br />KOUAKOU Martin</h1>
+        <h3>Développeur d'applications</h3>
+        <p>
+          Avec plusieurs années d'expérience, Contactez pour plus
+          d'informations.
+        </p>
 
-            <img src="./IMAGES/martin_sans_fond.png" alt="photo">
-        </div>
-
-  
+        <img src="./IMAGES/martin_sans_fond.png" alt="photo" />
+      </div>
     </section>
 
     <section class="travail">
-        <a name="#page2"> </a>
-        <p>Mes projets réalisés</p>
+      <a name="#page2"> </a>
+      <p>Mes projets réalisés</p>
 
-        <ul class="projet">
-            <li><a href="#micro">Microfinance</a></li>
-            <li><a href="#hevea">Négoce Hévéa</a></li>
-            <li><a href="#immo">Immobilier</a></li>
-            <li><a href="#hotel">Hotelerie</a></li>
-        </ul>
-        <iframe src="https://www.youtube.com/watch?v=UqHILyzcULE&t=419s" frameborder="0"></iframe>
+      <ul class="projet">
+        <li><a href="#micro">Microfinance</a></li>
+        <li><a href="#hevea">Négoce Hévéa</a></li>
+        <li><a href="#immo">Immobilier</a></li>
+        <li><a href="#hotel">Hotelerie</a></li>
+      </ul>
+      <iframe
+        src="https://www.youtube.com/watch?v=UqHILyzcULE&t=419s"
+        frameborder="0"
+      ></iframe>
     </section>
 
     <section class="cv">
-        <form action="">
-            <label for="nom">Nom : </label> <br>
-            <input type="text" id="nom" name="nom">
+      <form action="">
+        <label for="nom">Nom : </label> <br />
+        <input type="text" id="nom" name="nom" />
 
-            <label for="email">Email : </label> <br>
-            <input type="text" id="email" name="email">
-            
-            <label for="comment">Commentaire : </label> <br>
-            <input type="textarea" id="comment" name="comment">
+        <label for="email">Email : </label> <br />
+        <input type="text" id="email" name="email" />
 
-        </form>
+        <label for="comment">Commentaire : </label> <br />
+        <input type="textarea" id="comment" name="comment" />
+      </form>
     </section>
 
     <section class="contact">
-        <form action="">
-            <label for="nom">Nom : </label> <br>
-            <input type="text" id="nom" name="nom">
+      <form action="">
+        <label for="nom">Nom : </label> <br />
+        <input type="text" id="nom" name="nom" />
 
-            <label for="email">Email : </label> <br>
-            <input type="text" id="email" name="email">
-            
-            <label for="comment">Commentaire : </label> <br>
-            <input type="textarea" id="comment" name="comment">
-            
-            <button type="submit">Envoyer</button>
-        </form>
+        <label for="email">Email : </label> <br />
+        <input type="text" id="email" name="email" />
+
+        <label for="comment">Commentaire : </label> <br />
+        <input type="textarea" id="comment" name="comment" />
+
+        <button type="submit">Envoyer</button>
+      </form>
     </section>
 
     <section class="apropos">
-        <h3>A propos</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nobis nostrum itaque incidunt numquam cupiditate perspiciatis exercitationem nam molestiae fuga. 
-            Delectus ipsum rerum porro doloremque labore eum animi natus earum quia?
-        </p>
+      <h3>A propos</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum
+        itaque incidunt numquam cupiditate perspiciatis exercitationem nam
+        molestiae fuga. Delectus ipsum rerum porro doloremque labore eum animi
+        natus earum quia?
+      </p>
     </section>
+  </main>
 
-    <footer class="resosocio">
-        <a href="#"><i class='bx bxl-facebook' ></i></a>
-        <a href="#"><i class='bx bxl-instagram' ></i></a>
-        <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+  <!-- le footer avec adresse email -->
+    <footer>
+      <a href="mailto:kouakoumartin@yahoo.fr">Contactez-moi</a>
     </footer>
-
-</body>
+  </body>
 </html>
