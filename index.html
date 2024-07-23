@@ -1,98 +1,117 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portefolio</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./IMAGES/portefolio.png">
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav>
-        <ul class="links">
-          <li><a href="#accueil">accueil</a></li>
-          <li><a href="#travail">Travail</a></li>
-          <li><a href="#cv">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#apropos">A Propos</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul class="links">
+                <li><a href="#accueil">accueil</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#apropos">A Propos</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-    <section class="acceuil">
-      <div class="texteacceuil">
-        <a name="#page1"> </a>
+        <!-- accueil -->
+        <section>
+            <a name="accueil"> </a>
 
-        <h1>Je suis <br />KOUAKOU Martin</h1>
-        <h3>Développeur d'applications</h3>
-        <p>
-          Avec plusieurs années d'expérience, Contactez pour plus
-          d'informations.
-        </p>
+            <h3>1 - Qui suis-je ?</h3>
 
-        <img src="./IMAGES/martin_sans_fond.png" alt="photo" />
-      </div>
-    </section>
+            <h2>Je suis <br />KOUAKOU Martin</h2>
+            <h3>Développeur d'applications</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Consequuntur quasi commodi iusto expedita vitae? Vel, <br>
+                maxime expedita ex consequuntur at, iusto, culpa pariatur <br>
+                alias sequi error nesciunt numquam voluptates dicta!
+            </p>
 
-    <section class="travail">
-      <a name="#page2"> </a>
-      <p>Mes projets réalisés</p>
+            <img src="./IMAGES/student.jpeg" alt="photo" /> <br>
 
-      <ul class="projet">
-        <li><a href="#micro">Microfinance</a></li>
-        <li><a href="#hevea">Négoce Hévéa</a></li>
-        <li><a href="#immo">Immobilier</a></li>
-        <li><a href="#hotel">Hotelerie</a></li>
-      </ul>
-      <iframe
-        src="https://www.youtube.com/watch?v=UqHILyzcULE&t=419s"
-        frameborder="0"
-      ></iframe>
-    </section>
+            <video src="./IMAGES/conseil_etudiant.mp4" controls autoplay width="250" height="200" muted></video>
+        </section>
 
-    <section class="cv">
-      <form action="">
-        <label for="nom">Nom : </label> <br />
-        <input type="text" id="nom" name="nom" />
+        <!-- travail -->
+        <section>
+            <a name="travail"> </a>
+            <h3>2 - Mes projets réalisés</h3>
 
-        <label for="email">Email : </label> <br />
-        <input type="text" id="email" name="email" />
+            <ul>
+                <li>Microfinance</li>
+                <li>Négoce Hévéa</li>
+                <li>Immobilier</li>
+                <li>Hotelerie</li>
+            </ul>
 
-        <label for="comment">Commentaire : </label> <br />
-        <input type="textarea" id="comment" name="comment" />
-      </form>
-    </section>
+        </section>
 
-    <section class="contact">
-      <form action="">
-        <label for="nom">Nom : </label> <br />
-        <input type="text" id="nom" name="nom" />
+        <!-- curriculum Vitae -->
+        <section>
+            <a name="cv"> </a>
+            <h3>3 - Curriculum Vitae</h3>
 
-        <label for="email">Email : </label> <br />
-        <input type="text" id="email" name="email" />
+            <h4>Formation</h4>
+            <ul>
+                <li>BEPC</li>
+                <li>BAC</li>
+                <li>LICENCE</li>
+            </ul>
 
-        <label for="comment">Commentaire : </label> <br />
-        <input type="textarea" id="comment" name="comment" />
+            <h4>Experiences professionnelles</h4>
+            <ul>
+                <li>Développeur</li>
+                <li>chef de projet</li>
+                <li>Directeur</li>
+            </ul>
+        </section>
 
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
+        <section>
+            <a name="contact"> </a>
+            <h3>4 - Contact</h3>
 
-    <section class="apropos">
-      <h3>A propos</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum
-        itaque incidunt numquam cupiditate perspiciatis exercitationem nam
-        molestiae fuga. Delectus ipsum rerum porro doloremque labore eum animi
-        natus earum quia?
-      </p>
-    </section>
-  </main>
+            <form action="">
+                <label for="nom">Nom : </label> <br />
+                <input type="text" id="nom" name="nom" placeholder="entrez le nom" /><br>
 
-  <!-- le footer avec adresse email -->
+                <label for="email">Email : </label> <br />
+                <input type="text" id="email" name="email" placeholder="entrez l'email" /><br>
+
+                <label for="comment">Commentaire : </label> <br />
+                <textarea name="comment" id="comment" cols="30" rows="10"
+                    placeholder="Votre commentaire"></textarea><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section>
+            <a name="apropos"> </a>
+
+            <h3>5 - A propos</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum <br>
+                itaque incidunt numquam cupiditate perspiciatis exercitationem nam <br>
+                molestiae fuga. Delectus ipsum rerum porro doloremque labore eum animi <br>
+                natus earum quia?
+            </p>
+        </section>
+    </main>
+
+    <!-- le footer avec adresse email -->
     <footer>
-      <a href="mailto:kouakoumartin@yahoo.fr">Contactez-moi</a>
+        <a href="mailto:kouakoumartin@yahoo.fr">Contactez-moi</a>
     </footer>
-  </body>
+</body>
+
 </html>
