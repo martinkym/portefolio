@@ -1,88 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-    .roboto-thin {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-      }
-      
-      .roboto-light {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-      
-      .roboto-regular {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .roboto-medium {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .roboto-bold {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .roboto-black {
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-      
-      .roboto-thin-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: italic;
-      }
-      
-      .roboto-light-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-      
-      .roboto-regular-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .roboto-medium-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-style: italic;
-      }
-      
-      .roboto-bold-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
-      .roboto-black-italic {
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-      background-color: ;
-    }
+/* debut style -----------------------------------------------------*/
+.conteneur {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+  width: 100em;
+  list-style: none;
+  gap: 30px;
+}
+.accueil {
+  display: flex;
+  justify-content: center;
+  width: 100em;
+  /* height: 400px; */
+  margin: 0px;
+  gap: 10px;
+  border: 2px solid;
+  border-color: darkslategrey;
+}
+.accueil .infoperso {
+  flex-basis: 33%;
+  justify-content: center;
+}
+.accueil .infotext {
+  flex-basis: 33%;
+  text-align: center;
+  font-size: 17px;
+}
+.accueil .infovideo {
+  /* background-color: #a8df43; */
+  flex-basis: 34%;
+}
+h2 h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-    body {
-        height: 100vh;
-        background-color: #081b29;
-    }
+.conteneur2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 50px;
+  margin: 50px;
+}
+.conteneur2 .travail {
+  flex-basis: 50%;
+  gap: 10px;
+}
 
-    .header {
-display: flex;
-
-    }
+.conteneur3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+  border: 2px solid;
+  border-color: darkslategrey;
+}
+.conteneur3 .contact {
+  flex-basis: 33%;
+}

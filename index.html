@@ -9,114 +9,132 @@
     <link rel="icon" href="./IMAGES/portefolio.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
+
+    <div class="conteneur">
+        <header>
+            <!-- <nav class="navbar"> -->
             <ul class="links">
-                <li><a href="#accueil">accueil</a></li>
+                <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#travail">Travail</a></li>
                 <li><a href="#cv">CV</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#apropos">A Propos</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- accueil -->
-        <section>
-            <a name="accueil"> </a>
+            <!-- </nav> -->
+        </header>
+        <main>
+            <!-- accueil -->
+            <section class="accueil">
+                <a name="accueil"> </a>
 
-            <h3>1 - Qui suis-je ?</h3>
+                <div class="infoperso">
+                    <h3>1 - Qui suis-je ?</h3>
 
-            <h2>Je suis <br />KOUAKOU Martin</h2>
-            <h3>Développeur d'applications</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Consequuntur quasi commodi iusto expedita vitae? Vel, <br>
-                maxime expedita ex consequuntur at, iusto, culpa pariatur <br>
-                alias sequi error nesciunt numquam voluptates dicta!
-            </p>
+                    <h2>Je suis <br />KOUAKOU Martin</h2>
+                    <h3>Développeur d'applications</h3>
 
-            <img src="./IMAGES/student.jpeg" alt="photo" /> <br>
+                    <img src="./IMAGES/student.png" alt="photo" /> <br>
+                </div>
 
-            <video src="./IMAGES/conseil_etudiant.mp4" controls autoplay width="250" height="200" muted></video>
-        </section>
+                <div class="infotext">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Consequuntur quasi commodi iusto expedita vitae? Vel, <br>
+                        maxime expedita ex consequuntur at, iusto, culpa pariatur <br>
+                        alias sequi error nesciunt numquam voluptates dicta!
+                    </p>
+                </div>
 
-        <!-- travail -->
-        <section>
-            <a name="travail"> </a>
-            <h3>2 - Mes projets réalisés</h3>
+                <div class="infovideo">
+                    <video src="./IMAGES/conseil_etudiant.mp4" controls autoplay width="400" height="350" muted></video>
+                </div>
 
-            <ul>
-                <li>Microfinance</li>
-                <li>Négoce Hévéa</li>
-                <li>Immobilier</li>
-                <li>Hotelerie</li>
-            </ul>
+            </section>
 
-        </section>
+            <!-- travail -->
+            <section class="conteneur2">
 
-        <!-- curriculum Vitae -->
-        <section>
-            <a name="cv"> </a>
-            <h3>3 - Curriculum Vitae</h3>
+                <section class="travail">
+                    <a name="travail"> </a>
+                    <h3>2 - Mes projets réalisés</h3>
 
-            <h4>Formation</h4>
-            <ul>
-                <li>BEPC</li>
-                <li>BAC</li>
-                <li>LICENCE</li>
-            </ul>
+                    <ul>
+                        <li>Microfinance</li>
+                        <li>Négoce Hévéa</li>
+                        <li>Immobilier</li>
+                        <li>Hotelerie</li>
+                    </ul>
 
-            <h4>Experiences professionnelles</h4>
-            <ul>
-                <li>Développeur</li>
-                <li>chef de projet</li>
-                <li>Directeur</li>
-            </ul>
-        </section>
+                </section>
 
-        <section>
-            <a name="contact"> </a>
-            <h3>4 - Contact</h3>
+                <!-- curriculum Vitae -->
+                <section class="CV">
+                    <a name="cv"> </a>
+                    <h3>3 - Curriculum Vitae</h3>
 
-            <form action="">
-                <label for="nom">Nom : </label> <br />
-                <input type="text" id="nom" name="nom" placeholder="entrez le nom" /><br>
+                    <h4>Formation</h4>
+                    <ul>
+                        <li>BEPC</li>
+                        <li>BAC</li>
+                        <li>LICENCE</li>
+                    </ul>
 
-                <label for="email">Email : </label> <br />
-                <input type="text" id="email" name="email" placeholder="entrez l'email" /><br>
+                    <h4>Experiences professionnelles</h4>
+                    <ul>
+                        <li>Développeur</li>
+                        <li>chef de projet</li>
+                        <li>Directeur</li>
+                    </ul>
+                </section>
+            </section>
 
-                <label for="comment">Commentaire : </label> <br />
-                <textarea name="comment" id="comment" cols="30" rows="10"
-                    placeholder="Votre commentaire"></textarea><br>
+            <section class="conteneur3">
 
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
+                <section class="contact">
+                    <a name="contact"> </a>
+                    <h3>4 - Contact</h3>
 
-        <section>
-            <a name="apropos"> </a>
+                    <form action="">
+                        <label for="nom">Nom : </label> <br />
+                        <input type="text" id="nom" name="nom" placeholder="entrez le nom" /><br>
 
-            <h3>5 - A propos</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum <br>
-                itaque incidunt numquam cupiditate perspiciatis exercitationem nam <br>
-                molestiae fuga. Delectus ipsum rerum porro doloremque labore eum animi <br>
-                natus earum quia?
-            </p>
-        </section>
+                        <label for="email">Email : </label> <br />
+                        <input type="text" id="email" name="email" placeholder="entrez l'email" /><br>
+
+                        <label for="comment">Commentaire : </label> <br />
+                        <textarea name="comment" id="comment" cols="30" rows="10"
+                            placeholder="Votre commentaire"></textarea><br>
+
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+
+                <section class="apropos">
+                    <a name="apropos"> </a>
+
+                    <h3>5 - A propos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum <br>
+                        itaque incidunt numquam cupiditate perspiciatis exercitationem nam <br>
+                        molestiae fuga. Delectus ipsum rerum porro doloremque labore eum animi <br>
+                        natus earum quia?
+                    </p>
+                </section>
+
+
+                <!-- le footer avec adresse email -->
+                <footer class="email">
+                    <a href="mailto:kouakoumartin@yahoo.fr">Contactez-moi</a>
+                </footer>
+            </section>
+
+    </div>
     </main>
-
-    <!-- le footer avec adresse email -->
-    <footer>
-        <a href="mailto:kouakoumartin@yahoo.fr">Contactez-moi</a>
-    </footer>
 </body>
 
 </html>
